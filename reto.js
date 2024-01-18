@@ -2,19 +2,17 @@
 
 
 // RETO: Día de la semana
-let preguntaDia = prompt("Dime un día de la semana:");
+let preguntaDia = prompt("Dime un día de la semana, por favor escribelo todo en minuscula:");
 let diaValido1 = "sabado"
 let diaValido2 = "domingo"
 
 console.log(preguntaDia);
 
-if (preguntaDia == diaValido1) {
-    alert("Es correcto")
-} else {
-    if (preguntaDia == diaValido2)
-    alert("Es correcto")
+if (preguntaDia == diaValido1 || preguntaDia == diaValido2) {
+    alert("Buen fin de semana!")
+} else { alert("Buena semana")
 } 
-
+/*
 // RETO: numero positivo o negativo
 
 let numeroUsuario = prompt("Dame un numero y te digo si es + o -");
@@ -44,4 +42,4 @@ alert(`Su saldo en la cuenta bancaria es de $${saldoCuenta} dolares.`)
 //Reto: Mensaje de bienvenida
 let nombreUsuario = prompt("Por favor danos tu nombre:")
 
-alert(`Es un gusto tenerte en nuestra tienda ${nombreUsuario}.`)
+alert(`Es un gusto tenerte en nuestra tienda ${nombreUsuario}.`) */
