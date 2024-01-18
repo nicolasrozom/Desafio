@@ -21,3 +21,13 @@ if (numeroUsuario >= 0) {
 } else {
     alert("Es un numero negativo")
 } 
+
+// RETO: Mensaje segun puntuación
+
+let puntaje = prompt("Ingresa tu cantidad de puntos")
+
+if (puntaje >= 100) {
+    alert("¡Felicidades, has ganado!")
+} else {
+    "Intenta nuevamente para ganar."
+}
