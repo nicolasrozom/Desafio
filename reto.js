@@ -1,3 +1,5 @@
+//Recuerda usar /* */ para comentar los retos que no quieres que apliquen --> SOLO UNO A LA VEZ
+
 
 // RETO: Día de la semana
 let preguntaDia = prompt("Dime un día de la semana:");
@@ -32,3 +34,14 @@ if (puntaje >= 100) {
 } else {
     alert("Intenta nuevamente para ganar.")
 }
+
+//Reto: Alertar sobre el dinero en la cuenta
+let saldoCuenta =  10000
+
+alert(`Su saldo en la cuenta bancaria es de $${saldoCuenta} dolares.`)
+
+
+//Reto: Mensaje de bienvenida
+let nombreUsuario = prompt("Por favor danos tu nombre:")
+
+alert(`Es un gusto tenerte en nuestra tienda ${nombreUsuario}.`)
