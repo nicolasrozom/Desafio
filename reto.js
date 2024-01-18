@@ -1,3 +1,4 @@
+
 // RETO: Día de la semana
 let preguntaDia = prompt("Dime un día de la semana:");
 let diaValido1 = "sabado"
@@ -29,5 +30,5 @@ let puntaje = prompt("Ingresa tu cantidad de puntos")
 if (puntaje >= 100) {
     alert("¡Felicidades, has ganado!")
 } else {
-    "Intenta nuevamente para ganar."
+    alert("Intenta nuevamente para ganar.")
 }
